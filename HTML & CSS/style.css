@@ -58,19 +58,30 @@ img {
 
 /* Elements for the countries */
 
-.five_countries ul{
-    list-style-type: none;
+.five_countries {
+    text-align: center;
 }
 
 .five_countries li {
     display: inline-block;
+
 }
+
+.five_countries ul a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+
 .country {
     width: 230px;
     height: 186px;
     background-color: #f2f2f2;
     border-radius: 10px;
     text-align: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
 }
 
 .country_name {
@@ -88,6 +99,13 @@ img {
     overflow:hidden;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px;    
+    padding-top: 10px;
+       
     
+}
+
+.flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
 }
