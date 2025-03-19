@@ -115,3 +115,249 @@ img {
     height: 100%;
     object-fit: cover; 
 }
+
+/* Elements used for homepage.html */
+
+/* Elements for page layout */
+.homepage_container {
+	display: flex;
+	align-items: flex-start;
+	gap: 18px;
+}
+
+.left_columns {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.news, .olac_mission {
+	flex-shrink: 0;
+}
+
+.homepage_titel {
+	font-family: 'Roboto Slab', sans-serif;
+    font-size: 24px;
+	color: inherit;
+	letter-spacing: 2.4px;
+	margin-left: 12px;
+}
+
+.left_picture {
+	background-color: #F2F2F2;
+	font-family: 'Roboto Slab', sans-serif;
+	overflow: hidden;
+	margin-left: 12px;
+	margin-bottom: 0;
+	width: 505px;
+	height: 316px;
+	border-radius: 12px;
+	padding: 0px;
+}
+
+.left_picture img {
+	float: left;
+	width: 273px;
+	height: inherit;
+}
+
+.left_picture h3 {
+	text-align: center;
+	padding-top: 36px;
+    font-size: 24px;
+}
+
+.news {
+	font-family: 'Roboto Slab', sans-serif;
+	background-color: #F2F2F2;
+	color: inherit;
+	width: 227px;
+	height:	614px;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.news_box {
+	font-family: 'Roboto Condensed', sans-serif;
+    font-size: 21px;
+	color: #FFFFFF;
+	background-color:#023E8A;
+	height: 84px;
+	text-align: center;
+    padding: 12px;
+	margin: 6px;
+	border-radius: 12px;
+}
+
+.olac_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.olac_mission {
+	float: left;
+	font-family: 'Roboto Slab', sans-serif;
+	color: inherit;
+	width: 455px;
+}
+
+.olac_mission img {
+	float: left;
+	width: 455px;
+	height: 323px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.olac_mission h2 {
+	font-size: 36px;
+	text-align: center;
+	color: #FFFFFF;
+	padding-bottom: 48px;
+	margin-bottom: 12px;
+	background-color:#023E8A;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.olac_mission_text p {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #F2F2F2;	
+	color: inherit;
+	text-align: left;
+	width: 455px;
+	font-size: 18px;
+	padding-bottom: 28px;
+    padding-left: 12px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+.coverage {
+	font-family: 'Roboto Slab', sans-serif;
+    font-size: 36px;
+	color: inherit;
+	background-color: #F2F2F2;
+	text-align: center;
+	width: 505px;
+	height: 286px;
+	margin-left: 12px;
+	margin-top: 0px;
+	padding: 0px;
+	border-radius: 12px;
+}
+
+.coverage h3 {
+	font-family: 'Roboto Slab', sans-serif;
+	color: inherit;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.coverage_text p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	color: inherit;
+    height: 120px;
+	background-color:#F2F2F2;
+	border-radius: 12px;
+	padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.coverage_button button {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+    width: 220px;
+	height: 40px;
+	color: #FFFFFF;
+	background-color:#023E8A;
+	border-radius: 6px;
+	margin-bottom: 24px;
+}
+
+.coverage_button button:hover {
+	cursor: pointer;
+}
+
+.mailing_list {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #FFFFFF;
+	background-color:#023E8A;
+	height: 252px;
+	width: 793px;
+	margin-left: 228px;
+	border-radius: 12px;
+}
+
+.mailing_list h1 {
+	padding-top: 24px;
+	font-size: 40px;
+}
+
+.mailing_list h5 {
+	font-size: 20px;
+}
+
+.mailing_list_text {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	padding-bottom: 12px;
+}
+
+.mailing_list_button {
+	display: flex;
+  	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	width: 617px;
+	height: 60px;
+	color: #FFFFFF;
+	background-color:#F2F2F2;
+	border-radius: 30px;
+	margin-left: 88px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #57565690;
+}
+
+.mailing_list_button_text {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #869584;
+	width: 200px;
+	height: 50px;
+}
+.mailing_list_button button {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	width: 150px;
+	height: 55px;
+	color: #FFFFFF;
+	background-color:#00295E;
+	border-radius: 25px;
+}
+
+.mailing_list_button button:hover {
+    cursor: pointer;
+}
+
+.mailing_list_button p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	color: #36363690;
+	width: 210px;
+	height: 30px;
+	text-align: center;
+	margin-right: 163px;
+	margin-left: 90px;
+}
