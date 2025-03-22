@@ -675,3 +675,19 @@ a {
 		text-align: right;
 		padding-right: 8px;
 	}
+
+/* Elements used for faq.html */
+
+	/* Elements for the faq layout */
+
+	.olac_faq {
+		background-color: #F2F2F2;
+		padding: 12px;
+		margin: 24px;
+		border-radius: 12px;
+	}
+
+	.olac_faq h1 {
+		font-family: 'Roboto Slab', sans-serif;
+		color: inherit;
+	}

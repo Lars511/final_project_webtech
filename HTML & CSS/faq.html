@@ -1,1 +1,82 @@
-t
+<!DOCTYPE html>
+
+<html lang="en-uk">
+  <!-- Top of the page including navigation -->
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Open Language Archives Community</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <div class="page_titel">
+        <h1>Frequently Asked Questions</h1>
+    </div>
+    <div class="olac_faq">
+        <h1>1. What is the Open Language Archives Community?</h1>
+        <p>
+            The <a href="http://www.language-archives.org/">Open Language Archives Community</a>, or OLAC, is an international partnership of institutions and individuals who are creating a worldwide virtual library of language resources by: (i) developing consensus on best current practice for the digital archiving of language resources, and (ii) developing a network of interoperating repositories and services for housing and accessing such resources.
+            OLAC was founded at the <a href="https://www.ldc.upenn.edu/exploration/expl2000/">Workshop on Web-Based Language Documentation and Description</a>, held in Philadelphia in December 2000.
+        </p>
+        <h1>2. What is a language resource?</h1>
+        <p>
+            A language resource is any kind of DATA, TOOL or ADVICE (see the <a href="http://www.language-archives.org/documents/vision.html">founding vision statement</a>) pertaining to the documentation, description or development of a human language.
+            Texts, recordings, dictionaries, language learning materials, annotations, field notebooks, software, protocols, data models, file formats, newsgroup archives and web indexes are some examples of such resources.
+            OLAC metadata can be used to describe any kind of language resource. Language resources may be digital or non-digital, published or restricted. In the OLAC context, a language archive is any collection of language resources and their resource descriptions.
+        </p>
+        <h1>3. What is language resource discovery?</h1>
+        <p>
+            The most familiar methods for language resource discovery are mailing lists, web indexes, and the catalogs of archives and publishers.
+            Users of these methods typically experience low precision and recall: one has to wade through many irrelevant resources, and relevant resources are easily overlooked.
+            OLAC seeks to improve that situation by developing an infrastructure for language resource discovery. A key part of that infrastructure is a metadata set that is specialized for language resource description.
+        </p>
+        <h1>4. What is metadata?</h1>
+        <p>
+            The most familiar methods for language resource discovery are mailing lists, web indexes, and the catalogs of archives and publishers.
+            Users of these methods typically experience low precision and recall: one has to wade through many irrelevant resources, and relevant resources are easily overlooked.
+            OLAC seeks to improve that situation by developing an infrastructure for language resource discovery. A key part of that infrastructure is a metadata set that is specialized for language resource description.
+        </p>
+        <h1>5. What is the OLAC metadata set?</h1>
+        <p>
+            The OLAC metadata set is the set of metadata elements that participating archives have agreed to use for describing language resources.
+            Uniform description across archives is ensured by limiting the values of certain metadata elements to the use of terms from agreed-upon <a href="http://arxiv.org/abs/cs/0105030">controlled vocabularies</a>.
+            The OLAC metadata set is equally applicable whether the resources are available online or not. The metadata set consists of the fifteen elements of the <a href="http://dublincore.org/documents/dces/">Dublin Core Metadata Set</a>, plus the refinements and encoding schemes of the <a href="http://dublincore.org/documents/dcmi-terms/">DCMI Metadata Terms</a>—a widely accepted standard for describing resources of all types.
+            To this general standard, OLAC adds encoding schemes that are designed specifically for describing language resources, such as subject language and linguistic data type. The <a href="http://www.language-archives.org/NOTE/usage.html">OLAC Metadata Usage Guidelines</a> describe (with examples) all the elements, refinements, and encoding schemes that may be used in OLAC metadata descriptions.
+            The <a href="http://www.language-archives.org/OLAC/metadata.html">OLAC Metadata</a> standard defines the XML format that is used for the interchange of metadata descriptions among participating archives.
+        </p>
+        <h1>6. How is OLAC metadata collected and disseminated?</h1>
+        <p>
+            OLAC metadata is collected (or "harvested") from participating archives every day using the <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm">metadata harvesting protocol</a> of the <a href="http://www.openarchives.org/">Open Archives Initiative</a>(OAI).
+            End users can access the metadata using OLAC's <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm">search service</a>, or by browsing OLAC's language pages (coming soon).
+        </p>
+        <h1>7. Who can benefit from using OLAC metadata?</h1>
+        <p>
+            Anyone can use the OLAC Metadata Set to describe language resources. Language archives and language software repositories are the most common providers of OLAC metadata.(Participating archives and prospective participants are listed on the <a href="http://www.language-archives.org/organization.html">OLAC Organization</a> page.)
+            Individual researchers will soon be able to document the resources they manage using a simple form interface. The whole language resources community will be empowered by OLAC metadata, being able to quickly identify relevant resources.
+        </p>
+        <h1>8. What is meant by <em>Open</em> in the context of Open Language Archives?</h1>
+        <p>
+            OLAC is <em>open</em> in the sense that any archive can join, and any individual can access the metadata records of participating archives.
+            Participation and access are free. Also, the process by which OLAC governs itself and makes decisions is visible to all community members and open to their participation.
+            <em>Open</em> does not mean that users are free to do whatever they like with the metadata, nor does it mean that the described language resources are openly available.
+        </p>
+        <h1>9. How does a language archive join OLAC?</h1>
+        <p>
+            OLAC is open to participation by any language archive. To participate, archives must set up an OAI "data provider", exporting their catalogs to the Dublin Core and OLAC metadata formats for harvesting by the OAI Metadata Harvesting Protocol, and then register with the OAI and OLAC.
+            In general, the catalog remains in its existing format (e.g. in a relational database) and a CGI script permits external services to harvest the records in the prescribed XML format. A second approach avoids the OAI protocol altogether.
+            An entire metadata repository is dumped in a single XML file, and the OLAC virtual data provider takes care of the rest. For more information about both options, please see the page: <a href="http://www.language-archives.org/documents/implement.html">How to Become an OLAC Data Provider</a>.
+        </p>
+        <h1>10. How are language standards like the TEI represented in OLAC?</h1>
+        <p>
+            In OLAC parlance, <em>standards</em> refer to procedures and formats that govern participating services, such as the OLAC Metadata Set or the OAI Metadata Harvesting Protocol.
+            In OLAC, so-called "language standards" like the TEI are viewed as a kind of language resource called ADVICE since they are not binding on participating archives.
+            OLAC follows a <a href="http://www.language-archives.org/OLAC/process.html">process</a> involving working groups and voting, whereby such advice can become identified as community-agreed best practice.
+        </p>
+        <h1>11. How do I contribute new proposals for OLAC metadata?</h1>
+        <p>
+            Please join the <a href="http://www.language-archives.org/wg/metadata/">OLAC Metadata working group</a> and post your proposal to the working group's mailing list.
+        </p>
+    </div>
+
+</html>
