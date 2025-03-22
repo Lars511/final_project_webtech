@@ -691,3 +691,51 @@ a {
 		font-family: 'Roboto Slab', sans-serif;
 		color: inherit;
 	}
+
+/* Elements used for stats.html */
+
+	/* Elements for the stats layout */
+
+	.olac_coverage {
+		background-color: #F2F2F2;
+		padding: 12px;
+		margin: 24px;
+		border-radius: 12px;
+	}
+
+	.olac_coverage h1 {
+		font-family: 'Roboto Condensed', sans-serif;
+		color: inherit;
+		font-style: italic;
+		font-weight: 1000;
+		text-align: center;
+	}
+
+	.olac_coverage table {
+		font-family: 'Roboto Condensed', sans-serif;
+		border-collapse: collapse;
+		border: 1px solid;
+		margin: auto;
+		text-align: center;
+	}
+
+	.olac_coverage th {
+		background-color: #004397;
+		color: #FFFFFF;
+		padding: 8px;
+		border: 1px solid #000000;
+		width: 180px;
+	}
+
+	.olac_coverage td {
+		border: 1px solid #000000;
+		padding: 4px;
+	}
+	
+	.olac_coverage .odd {
+		background-color: #D9D9D9;
+	}
+
+	.olac_coverage .even {
+		background-color: #ffffff;
+	}
