@@ -11,12 +11,23 @@ html, body {
     overflow-x: hidden;
   }
 
-.page_titel {
+.page_title {
   font-family: 'Roboto Slab', sans-serif;
-  font-size: 36px;
+  font-size:40px;
   font: bold;
   color: inherit;
   text-align: center;
+}
+
+h1, h2 {
+	margin:0;
+	padding:0;
+}
+
+.subheading {
+	font-family: 'Roboto Slab', sans-serif;
+	font-size:36px;
+	text-align: center;
 }
 
 p, ul {
@@ -47,6 +58,10 @@ a {
 
 button {
 	transition-duration: 0.4s;
+}
+
+table {
+	border-radius:10px;
 }
 
 
@@ -245,7 +260,7 @@ button {
 	}
 
 	.right_column_table {
-		background-color: #a7a7a7; /*Needs to be changed to a darker shade a grey, check in figma */
+		background-color: #D9D9D9;
 		color: #000000;
 		margin:0;
 		border:0;
@@ -254,27 +269,94 @@ button {
 
 	}
 
-	.top_row .left_column_table{
-		border-radius: 10px 0px 0px 0px;
+	.top_row td:first-child {
+		border-top-left-radius: 10px;
 	}
 
-	.top_row .right_column_table {
-		border-radius: 0px 10px 0px 0px;
+	.top_row td:last-child {
+		border-top-right-radius: 10px;
 	}
 
-	.bottom_row .right_column_table{
-		border-radius: 0px 0px 10px 0px;
+	.bottom_row td:first-child {
+		border-bottom-left-radius: 10px;
 	}
 
-	.bottom_row .left_column_table {
-		border-radius: 0px 0px 0px 10px;
+	.bottom_row td:last-child {
+		border-bottom-right-radius: 10px;
+	}
+
+	#metadata, #olac_info, #oai_info {
+		background-color: #F2F2F2;
+		width: 1100px;
+		margin:25px;
+		padding:10px;	
+	}
+
+	#search_info, #inferred_metadata, #more_info {
+		background-color: #f2f2f2;
+		margin: 25px;
+		padding: 10px;
+		width: 600px;
 	}
 
 	/* Elements used for the layout */
-	#chrau_metadata, #olac_info, #oai_info {
-		background-color: #F2F2F2;
-		width: 1100px;
+	#language_entry_container {
+		display: flex;
+		flex-direction: row;
+		gap: 18px;
+		padding: 10px;
 	}
+
+	#left_column_language_entry {
+		gap: 12px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#right_column_language_entry {
+		margin-left: auto;
+		margin-right: auto; /*Solve the bug that the right column has no margins on the right side*/
+	}
+
+	/* Miscellaneous */
+	#writer_info {
+		background-color: #F2F2F2;
+		width:400px;
+		text-align: center;
+		margin: 25px;
+		margin-left:325px;	
+		padding:10px;
+	}
+
+	#writer_info p{
+		padding:0;
+		margin: 0;
+	}
+
+	#map_country_tag{
+		color:#ffffff;
+		background-color:#023E8A ;
+		border-radius: 10px;
+		}
+
+	#map_country_tag a{
+		text-decoration: underline;
+		color: inherit;
+		}
+
+	#more_info figure{
+		color: #ffffff;
+		background-color: #023E8A ;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	#more_info figure a{
+		text-decoration: underline;
+		color: inherit;
+		
+	}
+
 /* Elements used for homepage.html */
 
 	/* Elements for page layout */
