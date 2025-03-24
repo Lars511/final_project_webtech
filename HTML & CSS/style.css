@@ -593,17 +593,15 @@ button {
 
 	/* Elements for the overview page layout */
 
-	.overview_title {
-		font-family: 'Roboto Slab', sans-serif;
-		color: inherit;
-		text-align: center;
-	}
-
 	.olac_overview {
 		background-color: #F2F2F2;
-		padding: 10px;
-		margin: 25px;
+		padding: 30px;
+		margin: 75px;
 		border-radius: 10px;
+	}
+
+	.olac_overview p {
+		font-size: 20px;
 	}
 
 	.olac_overview h1, h2, h3, h4, h5 {
@@ -802,7 +800,7 @@ button {
 
 	.image_expand {
 		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 12px;
+		font-size: 12px !important;
 		color: #00000066;
 		text-align: center;
 		margin-top: 0;
@@ -902,7 +900,8 @@ button {
 	  
 	  .lightbox .lb-image {
 		display: block;
-		height: auto;
+		height: unset !important;
+		width: 100% !important;
 		max-width: inherit;
 		max-height: none;
 		border-radius: 3px;
@@ -917,7 +916,7 @@ button {
 	  
 	  .lb-outerContainer {
 		position: relative;
-		width: 250px;
+		width: 80vw !important;
 		height: 250px;
 		margin: 0 auto;
 		border-radius: 4px;
