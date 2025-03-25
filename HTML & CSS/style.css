@@ -26,8 +26,14 @@ h1, h2 {
 
 .subheading {
 	font-family: 'Roboto Slab', sans-serif;
-	font-size:36px;
-	text-align: center;
+	font-size: 36px;
+	color: #023E8A;
+	text-align: left;
+	border-bottom: 2px solid #023E8A;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 p, ul {
