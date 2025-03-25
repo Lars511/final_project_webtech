@@ -8,9 +8,8 @@ html, body {
     margin: 0;
     padding: 0 0;
     border:0;
-	width: 100%;
-    /* overflow-x: hidden; Moet dit echt? Anders is de navbar niet sticky. */ 
-  }
+    width: 100%;
+}
 
 .page_title {
   font-family: 'Roboto Slab', sans-serif;
@@ -645,136 +644,138 @@ table {
 /* Elements used for homepage.html */
 
 	/* Elements for page layout */
-	.homepage_container {
-		display: flex;
-		align-items: flex-start;
-		gap: 18px;
-		padding: 10px;
-	}
+.homepage_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
-	.left_columns {
-		display: flex;
-		flex-direction: column;
-		gap: 12px;
-	}
+.left_columns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
-	.news, .olac_mission {
-		flex-shrink: 0;
-	}
+.homepage_titel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+    text-align: center;
+}
 
-	.homepage_titel {
-		display: flex;
-		justify-content: left;
-		align-items: center;
-		font-family: 'Roboto Slab', sans-serif;
-	    font-size: 16px;
-		color: inherit;
-		letter-spacing: 2.4px;
-		margin-left: 24px;
-	}
+.homepage_titel h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    color: inherit;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
 
-	.search_bar {
-		display: flex;
-		align-items: center;
-		margin-left: 48px;
-		background-color: #F2F2F2;
-		border: 1px solid #57565664;
-	}
+.search_bar {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    border: 1px solid #57565664;
+    border-radius: 10px;
+    padding: 5px 15px;
+    width: 100%;
+    max-width: 600px;
+}
 
-	.search_bar input {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 16px;
-		color: #36363690;
-		background-color: #F2F2F2;
-		border: none;
-		width: 480px;
-		height: 40px;
-		text-align: left;
-		margin-left: 10px;
-		border-radius: 10px;
-		outline: none;
-	}
+.search_bar input {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: clamp(14px, 2vw, 16px);
+    color: #36363690;
+    background-color: #F2F2F2;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-left: 10px;
+    outline: none;
+}
 
-	.search_bar img {
-		width: 20px;
-		height: 20px;
-		margin-left: 12px;
-	}
+.search_bar img {
+    width: 20px;
+    height: 20px;
+}
 
-	.left_picture {
-		background-color: #F2F2F2;
-		font-family: 'Roboto Slab', sans-serif;
-		overflow: hidden;
-		margin-left: 12px;
-		margin-bottom: 0;
-		width: 505px;
-		height: 336px;
-		padding: 0px;
-	}
+.left_picture {
+    background-color: #F2F2F2;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
 
-	.left_picture img {
-		float: left;
-		width: 273px;
-		height: inherit;
-		object-fit: cover;
-		border-bottom-right-radius: 0px;
-		border-top-right-radius: 0px;
-	}
+.left_picture img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
-	.left_picture p {
-		text-align: center;
-		padding-top: 36px;
-	    font-size: 24px;
-		font-weight: bold;
-		font-family: 'Roboto Slab', sans-serif;
-	}
+.left_picture p {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-weight: bold;
+    margin: 0;
+}
 
-	.news {
-		font-family: 'Roboto Slab', sans-serif;
-		background-color: #F2F2F2;
-		color:  inherit;
-		width: 227px;
-		height:	667px;
-		border-radius: 10px;
-		text-align: center;
-	}
+.news {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+}
 	
-	.news_box {
-		display: flex;
-		align-items: flex-start;
-	}
-	.news_box button {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 18px;
-		font-weight: 600;
-		color: #FFFFFF;
-		background-color:#023E8A;
-		height: 102px;
-	    padding: 12px;
-		margin: 6px;
-		border-radius: 10px;
-	}
+.news h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-top: 0;
+    text-align: center;
+}
 
-	.news_box button:hover {
-		cursor: pointer;
-		background-color:#00295E;
-	}
+.news_box {
+    margin-bottom: 15px;
+}
 
-	.news_box img {
-		display: flex;
-		justify-content: center;
-		align-items: flex-start;
-		width: 24px;
-		height: 24px;
-	}
+.news_box button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #023E8A;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+}
 
 	#newsbox_arrow {
+		display: block;
 		width: 24px;
 		height: 24px;
+		margin-left: auto;
+		margin-right: auto;
 	}
+
+.news_box button:hover {
+    background-color: #00295E;
+}
+
+.news_box img {
+    width: 24px;
+    height: 24px;
+}
 
 	.olac_section {
 		display: flex;
@@ -782,179 +783,199 @@ table {
 		align-items: center;
 	}
 
-	.olac_mission {
-		float: left;
-		font-family: 'Roboto Slab', sans-serif;
-		color: inherit;
-		width: 455px;
-	}
+.olac_mission_box {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
-	.olac_mission img {
-		float: left;
-		width: 455px;
-		height: 367px;
-		border-bottom-right-radius: 0px;
-		border-bottom-left-radius: 0px;
-		margin-bottom: 0px;
-		object-fit: cover;
-	}
+.olac_mission img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 
-	.olac_mission h2 {
-		font-size: 36px;
-		text-align: center;
-		color: #FFFFFF;
-		padding-bottom: 24px;
-		margin-bottom: 12px;
-		background-color:#023E8A;
-		border-top-left-radius: 10px;
-		border-top-right-radius: 10px;
-	}
+.olac_mission h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 0;
+    background-color: #023E8A;
+}
 
-	.olac_mission_text p {
-		font-family: 'Roboto Condensed', sans-serif;
-		background-color: #F2F2F2;	
-		color: inherit;
-		text-align: left;
-		width: 444px;
-		font-size: 18px;
-		padding-bottom: 28px;
-	    padding-left: 12px;
-		border-bottom-right-radius: 10px;
-		border-bottom-left-radius: 10px;
-	}
+.olac_mission_text p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: clamp(1rem, 1.5vw, 1.1rem);
+    padding: 20px;
+    margin: 0;
+}
 
-	.coverage {
-		font-family: 'Roboto Slab', sans-serif;
-	    font-size: 36px;
-		color: inherit;
-		background-color: #F2F2F2;
-		text-align: center;
-		width: 505px;
-		height: 319px;
-		margin-left: 12px;
-		margin-top: 0px;
-		padding: 0px;
-		border-radius: 10px;
-	}
+.coverage {
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
 
-	.coverage h3 {
-		font-family: 'Roboto Slab', sans-serif;
-		color: inherit;
-		text-align: center;
-		padding-top: 0px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
+.coverage h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-top: 0;
+}
 
-	.coverage_text p {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 20px;
-		color: inherit;
-	    height: 120px;
-		background-color:#F2F2F2;
-		border-radius: 10px;
-		padding-top: 0px;
-	    padding-left: 30px;
-	    padding-right: 30px;
-	}
+.coverage_text p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    margin-bottom: 20px;
+}
 
-	.coverage_button button {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 24px;
-	    width: 220px;
-		height: 40px;
-		color: #FFFFFF;
-		background-color:#023E8A;
-		border-radius: 10px;
-		margin-top: 32px;
-	}
+.coverage_button button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background-color: #023E8A;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
-	.coverage_button button:hover {
-		cursor: pointer;
-		background-color:#00295E;
-	}
+.coverage_button button:hover {
+    background-color: #00295E;
+}
 
-	.mailing_list {
-		text-align: center;
-		font-family: 'Roboto Condensed', sans-serif;
-		color: #FFFFFF;
-		background-color:#023E8A;
-		font-size: 20px;
-		font-weight: 600;
-		height: 252px;
-		width: 793px;
-		margin-left: 228px;
-		border-radius: 10px;
-		margin-bottom: 25px;
-	}
+.mailing_list {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFF;
+    background-color: #023E8A;
+    padding: 30px 15px;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 800px;
+    width: calc(100% - 30px);
+}
 
-	.mailing_list h1 {
-		padding-top: 24px;
-		font-size: 40px;
-	}
+.mailing_list h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    margin-top: 0;
+}
 
-	.mailing_list_button {
-		display: flex;
-	  	align-items: center;
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 16px;
-		text-align: center;
-		width: 617px;
-		height: 60px;
-		color: #FFFFFF;
-		background-color:#F2F2F2;
-		border-radius: 30px;
-		margin-left: 88px;
-		border-style: solid;
-		border-width: 2px;
-		border-color: #57565690;
-	}
+.mailing_list p {
+    font-size: clamp(1rem, 1.5vw, 1.2rem);
+    margin-bottom: 20px;
+}
 
-	.mailing_list_button_text {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 16px;
-		color: #FFFFFF;
-		background-color: #869584;
-		width: 200px;
-		height: 50px;
-	}
-	.mailing_list_button button {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 16px;
-		width: 150px;
-		height: 55px;
-		color: #FFFFFF;
-		background-color:#00295E;
-		border-radius: 25px;
-		transition-duration: 0.4s;
-		margin-left: 18px;
-	}
+.mailing_list_button {
+    display: flex;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    padding: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
-	.mailing_list_button button:hover {
-	    cursor: pointer;
-		background-color:#00214d
-	}
+.mailing_list_button img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
 
-	.mailing_list_button input {
-		display: flex;
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 24px;
-		color: #36363690;
-		background-color: #F2F2F2;
-		border: none;
-		width: 370px;
-		height: 30px;
-		text-align: left;
-		margin-right: 0px;
-		margin-left: 20px;
-		outline: none;
-	}
+.mailing_list_button input {
+    flex-grow: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    color: #36363690;
+    background-color: #F2F2F2;
+    border: none;
+    height: 40px;
+    padding: 0 10px;
+    outline: none;
+    margin-right: 10px;
+}
 
-	.mailing_list_button img {
-		width: 40px;
-		height: 40px;
-		margin-left: 12px;
-	}
+.mailing_list_button button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    color: #FFFFFF;
+    background-color: #00295E;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.mailing_list_button button:hover {
+    background-color: #00214d;
+}
+
+/* Desktop Layout */
+@media (min-width: 992px) {
+    .homepage_container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .left_columns {
+        flex: 2;
+    }
+
+    .news {
+        flex: 1;
+        order: 2;
+    }
+
+    .olac_mission_box {
+        flex: 2;
+        order: 3;
+    }
+
+    .left_picture {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .left_picture img {
+        width: 50%;
+        height: auto;
+    }
+
+    .left_picture p {
+        width: 50%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .olac_mission img {
+        height: 300px;
+    }
+}
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 991px) {
+    .homepage_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .left_columns {
+        grid-column: 1 / span 2;
+    }
+
+    .news {
+        grid-column: 1;
+    }
+
+    .olac_mission_box {
+        grid-column: 2;
+    }
+}
 
 /* Elements used for overview.html */
 
