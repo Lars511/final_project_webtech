@@ -8,10 +8,11 @@ html, body {
     margin: 0;
     padding: 0 0;
     border:0;
-    /* overflow-x: hidden; */ */ Moet dit echt? Anders is de navbar niet sticky. */ 
+	width: 100%;
+    /* overflow-x: hidden; Moet dit echt? Anders is de navbar niet sticky. */ 
   }
 
-.page_titel {
+.page_title {
   font-family: 'Roboto Slab', sans-serif;
   font-size:40px;
   font: bold;
@@ -546,7 +547,7 @@ table {
 		margin:0;
 		border:0;
 		padding:20px;
-		width: 600px;
+		width: 400px;
 
 	}
 
@@ -577,7 +578,7 @@ table {
 		background-color: #f2f2f2;
 		margin: 25px;
 		padding: 10px;
-		width: 600px;
+		width: 500px;
 	}
 
 	/* Elements used for the layout */
