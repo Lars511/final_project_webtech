@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results | OLAC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="../images/olac_logo.png" alt="OLAC Logo">
+            </div>
+            <div class="site-title">
+                <h1>OPEN LANGUAGE ARCHIVES COMMUNITY</h1>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <a href="search.html"><button type="submit"><i class="fas fa-search"></i></button></a>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="languages.html">Languages</a></li>
+                    <li class="dropdown">
+                        <a href="about.html" class="dropbtn">About <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                            <a href="stats.html">Statistics</a>
+                            <a href="faq.html">FAQ</a>
+                            <a href="overview.html">Overview</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="search-page-container">
+        <!-- Search Header -->
+        <div class="search-header">
+            <h1>Search Results</h1>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-bar-wrapper">
+            <div class="search-bar-group">
+                <input type="text" class="search-input" placeholder="Search OLAC archives...">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="search-results-grid">
+            <!-- Filters Column -->
+            <aside class="search-filters">
+                <h2>Filters</h2>
+                <div class="filter-group">
+                    <h3>Language</h3>
+                    <div class="filter-options">
+                        <label class="filter-option">
+                            <input type="checkbox" name="language" value="eng">
+                            <span class="checkmark"></span>
+                            English (eng)
+                        </label>
+                        <label class="filter-option">
+                            <input type="checkbox" name="language" value="nld">
+                            <span class="checkmark"></span>
+                            Dutch (nld)
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Linguistic Field Filter -->
+                <div class="filter-group">
+                    <h3>Linguistic Field</h3>
+                    <div class="filter-options">
+                        <label class="filter-option">
+                            <input type="checkbox" name="field" value="syntax">
+                            <span class="checkmark"></span>
+                            Syntax
+                        </label>
+                        <label class="filter-option">
+                            <input type="checkbox" name="field" value="documentation">
+                            <span class="checkmark"></span>
+                            Documentation
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Subject Filter -->
+                <div class="filter-group">
+                    <h3>Subject</h3>
+                    <div class="filter-options">
+                        <label class="filter-option">
+                            <input type="checkbox" name="subject" value="english">
+                            <span class="checkmark"></span>
+                            English
+                        </label>
+                        <label class="filter-option">
+                            <input type="checkbox" name="subject" value="dutch">
+                            <span class="checkmark"></span>
+                            Dutch
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Resource Type Filter -->
+                <div class="filter-group">
+                    <h3>Resource Type</h3>
+                    <div class="filter-options">
+                        <label class="filter-option">
+                            <input type="checkbox" name="type" value="text">
+                            <span class="checkmark"></span>
+                            Text
+                        </label>
+                        <label class="filter-option">
+                            <input type="checkbox" name="type" value="sound">
+                            <span class="checkmark"></span>
+                            Sound
+                        </label>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Results Column -->
+            <main class="results-main">
+                <div class="results-toolbar">
+                    <div class="results-count">24 results found</div>
+                    <div class="sort-control">
+                        <button class="sort-button">
+                            Sort by: Relevancy <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="sort-options">
+                            <a href="#">Relevancy</a>
+                            <a href="#">Date (Newest)</a>
+                            <a href="#">Date (Oldest)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search Results -->
+                <div class="result-item">
+                    <div>
+                        <h2 class="result-title">Polderland Dutch Lexicon of Legal Terminology</h2>
+                        <div class="result-description">
+                            <p>The lexicon contains 6,207 Dutch words from the legal domain, comprising 4,781 nouns, 810 adjectives, 573 verbs, 12 adverbs and 31 items from other categories. It complies with the official Dutch Spelling (2005/6). Each entry contains an ID, word form and part of speech.The lexicon is delivered in human-readable UNIX ANSI-format, with just a linefeed at the end of every line instead of a carriage return. The character set used is ISO Latin-1 (ISO/IEC 8859-1). All fields are separated by horizontal tabs, with no empty fields.</p>
+                        </div>
+                    </div>
+                    <div class="result-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Contributor:</span>
+                            <span class="meta-value">Valérie Mapelli</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Publisher:</span>
+                            <span class="meta-value">ELRA (European Language Resources Association)</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Date:</span>
+                            <span class="meta-value">March 2022</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-item">
+                    <div>
+                        <h2 class="result-title">Two-word verbs</h2>
+                        <div class="result-description">
+                            <p>No description.</p>
+                        </div>
+                    </div>
+                    <div class="result-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Contributor:</span>
+                            <span class="meta-value">English Language Services</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Publisher:</span>
+                            <span class="meta-value">New York : Collier Macmillan International ; Don Mills, Ont. : Collier Macmillan Canada</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Date:</span>
+                            <span class="meta-value">July 2021</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="result-item">
+                    <div>
+                        <h2 class="result-title">A comparative of Suluwesi Languages</h2>
+                        <div class="result-description">
+                            <p>1 page manuscript -- Codrington's 70 word list. A comparative of Suluwesi (Celebes) languages Sangir, Banggai, Makassar, Bugis and Simolar. Only thirty-two words are given. Compiled by Capell.; Date of recording unknown.. Language as given: Sangir, Banggai, Makassar, Bugis, Simulor. 
+</p>
+                        </div>
+                    </div>
+                    <div class="result-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Contributor:</span>
+                            <span class="meta-value">Arthur Capell</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Publisher:</span>
+                            <span class="meta-value">PARADISEC</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Date:</span>
+                            <span class="meta-value">May 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-section contact-info">
+          <p>Contact: <a href="mailto:info@olac.com">info@olac.com</a></p>
+        </div>
+    
+        <div class="footer-section social-media">
+          <p>Follow OLAC</p>
+          <div class="footer-social-icons">
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+    
+        <div class="footer-section faq-button">
+          <a href="faq.html" class="footer-btn">FAQ</a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
