@@ -418,6 +418,7 @@ table {
 	.country:hover {
 			background-color: #C2C2C2;
 			text-decoration: underline;
+			transform: translateY(-3px);
 	}
 
 	.country_name {
@@ -465,6 +466,7 @@ table {
 	.list_of_languages ul a:hover, .list_of_languages li:hover {
 			text-decoration: underline;
 			background-color: #C2C2C2;
+			transform: translateY(-3px);
 	}
 	.all_languages {
 		display: flex;
@@ -492,7 +494,7 @@ table {
 
 	.language_banner img {
 		width: 100%;
-		height: 300px;
+		height: 400px;
 		background-size: cover;
 		object-fit: cover;
 	}
@@ -505,6 +507,7 @@ table {
 		background-color: #F2F2F2;
 		opacity: 90%;
 		padding: 0px;
+		width: 1000px;
 	}
 
 	.language_banner div h1{
