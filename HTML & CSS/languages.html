@@ -3,6 +3,7 @@
 <html lang="en-uk">
   <!-- Top of the page including navigation -->
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Open Language Archives Community Languages</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,6 +11,45 @@
   </head>
 
   <body>
+    <header class="top-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="../images/olac_logo.png" alt="OLAC Logo">
+            </div>
+            <div class="site-title">
+                <h1>OPEN LANGUAGE ARCHIVES COMMUNITY</h1>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="languages.html" class="active">Languages</a></li>
+                    <li class="dropdown">
+                        <a href="about.html" class="dropbtn">About <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                        <div class="dropdown-content">
+                            <a href="stats.html">Statistics</a>
+                            <a href="faq.html">FAQ</a>
+                            <a href="overview.html">Overview</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </nav>
+
     <div class="page_titel">
         <h1>OLAC Languages</h1>
     </div>
@@ -507,5 +547,28 @@
     </div>
 
 
+    <footer class="site-footer">
+      <div class="footer-container">
+        <!-- Left section - Contact info -->
+        <div class="footer-section contact-info">
+          <p>Contact: <a href="mailto:info@olac.com">info@olac.com</a></p>
+        </div>
+    
+        <!-- Middle section - Social media -->
+        <div class="footer-section social-media">
+          <p>Follow OLAC</p>
+          <div class="footer-social-icons">
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+    
+        <!-- Right section - FAQ button -->
+        <div class="footer-section faq-button">
+          <a href="faq.html" class="footer-btn">FAQ</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
