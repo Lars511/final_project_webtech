@@ -213,5 +213,14 @@
         </div>
       </div>
     </footer>
+    <div class="currentdate">
+      <p>Up to date as of:</p>
+      <p id="date"></p>
+    </div>
+  <!-- source: https://www.w3schools.com/js/js_dates.asp-->
+    <script>
+      const d = new Date();
+      document.getElementById("date").innerHTML = d.toString();
+    </script>
   </body>
 </html>

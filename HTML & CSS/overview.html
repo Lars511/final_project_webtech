@@ -654,6 +654,23 @@
         </div>
       </div>
     </footer>
+    <div class="currentdate">
+        <p>Up to date as of:</p>
+        <p id="date"></p>
+    </div>
+    <!-- javascript function for image lightbox-->
+    <!-- SOURCE: https://lokeshdhakar.com/projects/lightbox2/-->
+    <script src="../javascript/lightbox.js"></script>
+    <script>
+        lightbox.option({
+          'fitImagesInViewport': false
+        })
+    </script>
+    <!-- source: https://www.w3schools.com/js/js_dates.asp-->
+    <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d.toString();
+    </script>
   </body>
 </html>
   
