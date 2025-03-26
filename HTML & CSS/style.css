@@ -649,7 +649,6 @@ table {
 
 /* Elements used for homepage.html */
 
-	/* Elements for page layout */
 .homepage_container {
     display: flex;
     flex-direction: column;
@@ -749,6 +748,10 @@ table {
     margin-bottom: 15px;
 }
 
+.news_box a {
+    text-decoration: none;
+}
+
 .news_box button {
     display: flex;
     align-items: center;
@@ -824,6 +827,7 @@ table {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    flex-grow: 1;
 }
 
 .coverage h3 {
@@ -926,7 +930,7 @@ table {
 @media (min-width: 992px) {
     .homepage_container {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: stretch; /* Make children equal height */
     }
 
     .left_columns {
