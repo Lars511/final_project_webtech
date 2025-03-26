@@ -381,6 +381,8 @@ table {
 		width: 1050px;
 		margin-left: auto;
 		margin-right: auto;
+		height: 30px;
+		margin-bottom: 40px;
 	}
 
 	.quick_navigation ul{
@@ -435,6 +437,7 @@ table {
 		margin-left: 15px;
 		margin-bottom: 15px;
 		transition: transform 0.3s ease, box-shadow 0.3s ease;
+		
 	}
 
 	.country_filler {
@@ -459,6 +462,12 @@ table {
 		border-radius: 10px;
 		margin-left: 24px;
 		margin-right: 24px;
+		position: relative;
+	}
+
+	.country_name span {
+		position: absolute; 
+		top:-250px;
 	}
 
 	.flag {
