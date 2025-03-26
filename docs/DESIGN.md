@@ -20,10 +20,10 @@ Much more overview is created on this page by dividing the page into two parts. 
 ## Search
 We haven’t strayed too far from the original design, since it is actually pretty modern. We have a simple and intuitive large search bar, with optional filters that are easily accessible on the left hand side. Something we added was a sort function, to simply sort either by date or by relevance. The results are organized in cards and can be continuously scrolled through. 
 
-##FAQ, overview, statistics
+## FAQ, overview, statistics
 These pages have been revised for a more pleasant reading experience. The overview page is not fully complete, but the rest of the original overview page follows the exact same design principles as the revised page. The FAQ page also follows the general design principles, with a clear overview of the questions and answers, along with links inside the answer text. The statistics page includes two tables from the original OLAC statistics page, with its color palette revised to be in line with the rest of the website.
 
-##Differences between our Figma design and our HTML design
+## Differences between our Figma design and our HTML design
 We tried to stay as close as possible to our Figma design, but we made a few different style choices. 
 Overall changes include a hover effect on the buttons and sections on pages. When hovering over a button or section, it very slightly goes up and the background color changes slightly, for added engagement. The navbar and footer also look more concise, with a font that’s clearer than the font used in Figma. The search bar in the navbar is also more apparent. We have added a javascript function in the footer that shows that the page is up to date with the current date and time.
 
