@@ -352,6 +352,26 @@ table {
   }
 }
 
+/* Elements for current date in footer */
+.currentdate {
+	display: flex;
+	background-color: #023E8A;
+	border-radius: 0;
+
+}
+
+.currentdate p {
+	margin-top: 0px;
+	margin-bottom: 1px;
+	margin-left: 18px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+#date {
+	margin-left: 10px !important;
+}
+
 /*Elements specifically for languages.html*/
 
 	/* Elements for the quick navigation bar on top of the page */
