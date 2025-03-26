@@ -12,4 +12,8 @@ This repository contains our redesign of the OLAC website.\
 The docs foldercontains the redesigned pages and language entries HTML, CSS and JS documents, along with documentation of our design choices and differences between our original Figma design.\
 The figma designs folder contains our original Figma designs for documentation purposes.
 
+## Redesign
+
+Our redesign is hosted via Github pages, and can be found via: https://lars511.github.io/final_project_webtech/
+
 
