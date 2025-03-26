@@ -602,7 +602,7 @@ table {
 	tr, #inferred_metadata, #more_info, #search_info, #writer_info, #metadata, #olac_info, #oai_info {
 		transition: transform 0.3s ease, box-shadow 0.3s ease;
 	}
-	tr:hover, #inferred_metadata:hover, #more_info:hover, #search_info:hover, #writer_info:hover, #metadata:hover, #olac_info:hover, #oai_info:hover {
+	.language_entry tr:hover, #inferred_metadata:hover, #more_info:hover, #search_info:hover, #writer_info:hover, #metadata:hover, #olac_info:hover, #oai_info:hover {
 		transform: translateY(-5px);
 		box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
