@@ -900,6 +900,7 @@ table {
     background-color: #F2F2F2;
     border: none;
     height: 40px;
+	width: 190%;
     padding: 0 10px;
     outline: none;
     margin-right: 10px;
@@ -1000,7 +1001,9 @@ table {
 		border-radius: 10px;
 	}
 
-	.olac_overview p {
+	.olac_overview p, blockquote, ul {
+		font-family: 'Roboto Condensed', sans-serif;
+		color: inherit;
 		font-size: 20px;
 	}
 
@@ -1026,13 +1029,8 @@ table {
 		border-bottom: none;
 		margin-top: 20px;
 	}
-	
-	.olac_overview blockquote {
-		font-family: 'Roboto Condensed', sans-serif;
-		color: inherit;
-	}
 
-	.olac_overview figcaption h2 {
+	.olac_overview figcaption h4 {
 		border-bottom: none !important;
 		color: inherit !important;
 		margin-bottom: 15px;
@@ -1043,11 +1041,16 @@ table {
 		transform: translateY(-3px);
 		transition: transform 0.3s ease;
 	}
+
 	.figure1 {
 		text-align: center;
 	}
 
-	.figure1_table{
+	.figure1 td {
+		font-size: 20px;
+	}
+
+	.figure1_table {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
@@ -1056,39 +1059,30 @@ table {
 		font-family: 'Roboto Condensed', sans-serif;
 	}
 
-	.figure1_right {
-		background-color: #D9D9D9;
-		font-family: 'Roboto Condensed', sans-serif;
-		width: 400px;
-		height: 545px;
-		padding-left: 8px;
-		text-align: left;
-		border-top-left-radius: 0px;
-		border-bottom-left-radius: 0px;
+	.fig1_table {
+		margin: auto;
+		border-collapse: collapse;
 	}
 
-	.figure1_left {
+
+	.fig1_right {
+		background-color: #D9D9D9;
+		font-family: 'Roboto Condensed', sans-serif;
+		border: 1px solid #00000033;
+		text-align: left;
+		padding-left: 8px;
+		padding-right: 8px;
+		width: 520px;
+	}
+
+	.fig1_left {
 		background-color: #004397;
 		color: #FFFFFF;
 		font-family: 'Roboto Condensed', sans-serif;
-		width: 300px;
-		height: 545px;
-		padding-right: 8px;
+		border: 1px solid #00000033;
+		width: 350px;
 		text-align: right;
-		border-top-right-radius: 0px;
-		border-bottom-right-radius: 0px;
-	}
-
-	.figure1_left ul {
-		list-style-type: none;
-		padding: 0px;
-		margin: 0px;
-	}
-
-	.figure1_right ul{
-		list-style-type: none;
-		padding: 0px;
-		margin: 0px;
+		padding-right: 8px;
 	}
 
 	.figure2 {
@@ -1305,6 +1299,12 @@ table {
 		border-bottom: 2px solid #023E8A;
 		margin-bottom: 20px;
 		margin-top: 40px;
+	}
+
+	.olac_coverage_table h1, .online_resources_table h1 {
+		margin-left: 21% !important;
+		margin-right: 21% !important;
+		text-align: left !important;
 	}
 
 	.olac_coverage p {

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Open Language Archives Community</title>
+    <link rel="icon" type="image/x-icon" href="../images/icons/olac50.gif">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8">
   </head>
@@ -15,7 +16,7 @@
     <header class="top-header">
         <div class="header-container">
             <div class="logo">
-                <img src="../images/olac_logo.png" alt="OLAC Logo">
+                <a href="../HTML & CSS/homepage.html"><img src="../images/olac_logo.png" alt="OLAC Logo"></a>
             </div>
             <div class="site-title">
                 <h1>OPEN LANGUAGE ARCHIVES COMMUNITY</h1>
@@ -93,43 +94,63 @@
         </p>
         <figure class="figure1">
             <div class="figure1_table">
-                <div class="figure1_left">
-                    <ul>
-                        <li>Title:</li>
-                        <li>Creator:</li>
-                        <li>Date:</li>
-                        <li>Identifier:</li>
-                        <li>Identifier.ISBN:</li>
-                        <li>Publisher:</li>
-                        <li>Subject.language:</li>
-                        <li>Rights.openness:</li>
-                        <li>Type.data:</li>
-                        <li>Type.data:</li>
-                        <li>Format.openness:</li>
-                        <li>Format.markup:</li>
-                        <li>Description:</li>
-                    </ul>
-                </div>
-                <div class="figure1_right">
-                    <ul>
-                        <li>Huánuco Dictionary</li>
-                        <li>David Weber</li>
-                        <li>1998</li>
-                        <li><a href="ftp://ftp.sil.org/pub/corpus/19980137">ftp://ftp.sil.org/pub/corpus/19980137</a></li>
-                        <li> 0 521 28071 0</li>
-                        <li>SIL</li>
-                        <li>x-sil-QEM</li>
-                        <li>published</li>
-                        <li>lexicon</li>
-                        <li>annotated text</li>
-                        <li>open</li>
-                        <li>sil-sf</li>
-                        <li>A bilingual Huánuco/Spanish dictionary, including example sentences and grammatical notes</li>
-                    </ul>
-                </div>
+                <table class="fig1_table">
+                    <tr>
+                        <td class="fig1_left">Title:</td>
+                        <td class="fig1_right">Huánuco Dictionary</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Creator:</td>
+                        <td class="fig1_right">David Weber</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Date:</td>
+                        <td class="fig1_right">1998</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Identifier:</td>
+                        <td class="fig1_right"><a href="ftp://ftp.sil.org/pub/corpus/19980137">ftp://ftp.sil.org/pub/corpus/19980137</a></td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Identifier.ISBN:</td>
+                        <td class="fig1_right"> 0 521 28071 0</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Publisher:</td>
+                        <td class="fig1_right">SIL</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Subject.Language:</td>
+                        <td class="fig1_right">x-sil-QEM</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Rights.openness:</td>
+                        <td class="fig1_right">published</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Type.data:</td>
+                        <td class="fig1_right">lexicon</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Type.data:</td>
+                        <td class="fig1_right">annotated text</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Format.openness:</td>
+                        <td class="fig1_right">open</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Format.markup:</td>
+                        <td class="fig1_right">sil-sf</td>
+                    </tr>
+                    <tr>
+                        <td class="fig1_left">Description:</td>
+                        <td class="fig1_right">A bilingual Huánuco/Spanish dictionary, including example sentences and grammatical notes</td>
+                    </tr>
+                </table>
             </div>
             <figcaption>
-                <h2>Figure 1: An example metadata record for a Huánuco Dictionary.</h2>
+                <h4>Figure 1: An example metadata record for a Huánuco Dictionary.</h4>
             </figcaption>
         </figure>
         <p>
@@ -157,7 +178,7 @@
                 <p class="image_expand">Click to expand</p>
             </a>
             <figcaption>
-                <h2>Figure 2: Ideally the user has access as needed</h2>
+                <h4>Figure 2: Ideally the user has access as needed</h4>
             </figcaption>
         </figure>
         <p>
@@ -178,7 +199,7 @@
                 <p class="image_expand">Click to expand</p>
             </a>
             <figcaption>
-                <h2>Figure 3: In reality the user can't always get there from here</h2>
+                <h4>Figure 3: In reality the user can't always get there from here</h4>
             </figcaption>
         </figure>
         <p>
@@ -204,7 +225,7 @@
                 <p class="image_expand">Click to expand</p>
             </a>
             <figcaption>
-                <h2>Figure 4: Bridging the gap through community infrastructure</h2>
+                <h4>Figure 4: Bridging the gap through community infrastructure</h4>
             </figcaption>
         </figure>
         <h1>3. Background of the Open Language Archives Community</h1>
@@ -286,13 +307,17 @@
                 </tr>
                 <tr>
                     <td><strong>Theorists:</strong> developing new models of the human language faculty.</td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td><strong>Technologists:</strong> developing new human language technologies.</td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
             <figcaption>
-                <h2>Figure 5: The Language Resources Community</h2>
+                <h4>Figure 5: The Language Resources Community</h4>
             </figcaption>
         </figure>
         <p>
@@ -346,7 +371,7 @@
                 <p class="image_expand">Click to expand</p>
             </a>
             <figcaption>
-                <h2>Figure 6: The Relationship Between an OAI Repository and an Archive</h2>
+                <h4>Figure 6: The Relationship Between an OAI Repository and an Archive</h4>
             </figcaption>
         </figure>
         <p>
@@ -363,7 +388,7 @@
                 <p class="image_expand">Click to expand</p>
             </a>
             <figcaption>
-                <h2>Figure 7: A Service Provider Accessing Multiple Data Providers</h2>
+                <h4>Figure 7: A Service Provider Accessing Multiple Data Providers</h4>
             </figcaption>
         </figure>
         <h1>3.4. Applying the OAI to Language Resources</h1>
@@ -593,7 +618,7 @@
             </div>
         </figure>
         <figcaption id="figure8_caption">
-            <h2>Figure 8: Querying the Prototype Service Provider for Bulgarian Resources</h2>
+            <h4>Figure 8: Querying the Prototype Service Provider for Bulgarian Resources</h4>
         </figcaption>
         </div>
     </div>
