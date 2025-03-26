@@ -1,13 +1,15 @@
-# final_project_webtech
-Redesign OLAC website
+# Final Project Web Technology
+Redesign OLAC website by Lars, Alessandro, Rowan
 
 ## Who did what
-Lars: language entries, languages of a country, languages (algemeen)\
-Rowan: Homepage, faq, overview, statistics\
-Alessandro: Search results, about, navbar, footer
+Lars: Languages page with countries, Languages of Vietnam and Languages of Myanmar, Language entries (Chrau, Achang and Katua.\
+Rowan: Homepage, FAQ, overview, statistics\
+Alessandro: Search results page, about, navbar, footer
 
-## blablabla
+## General Information
 
-als je iets hebt gedaan, push het naar de github (eerst pullen)\	
+This repository contains our redesign of the OLAC website.\
+It contains the redesigned pages and language entries HTML, CSS and JS documents, along with documentation of our design choices and differences between our original Figma design.\
+It also contains our original Figma designs for documentation purposes.
 
 
