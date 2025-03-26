@@ -407,7 +407,6 @@ table {
 
 	.quick_navigation li:hover {
 		transform: translateY(-3px);
-
 	}
 	/* Elements for the countries */
 
@@ -450,6 +449,7 @@ table {
 			background-color: #C2C2C2;
 			text-decoration: none;
 			transform: translateY(-3px);
+			box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 	}
 
 	.country_name {
@@ -511,6 +511,7 @@ table {
 			background-color: #C2C2C2;
 			transition: transform 0.3s ease, box-shadow 0.3s ease;
 			transform: translateY(-3px);
+			box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 	}
 	.all_languages {
 		display: flex;
@@ -597,6 +598,14 @@ table {
 		width: 400px;
 
 	}
+
+	tr, #inferred_metadata, #more_info, #search_info, #writer_info, #metadata, #olac_info, #oai_info {
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+	tr:hover, #inferred_metadata:hover, #more_info:hover, #search_info:hover, #writer_info:hover, #metadata:hover, #olac_info:hover, #oai_info:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
 
 	.top_row td:first-child {
 		border-top-left-radius: 10px;
@@ -786,6 +795,7 @@ table {
 
 .left_picture:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .left_picture img {
@@ -811,6 +821,7 @@ table {
 
 .news:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 	
 .news h3 {
@@ -849,7 +860,8 @@ table {
 
 .news_box button:hover {
     background-color: #00295E;
-	transform: translateY(-3px);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .news_box img {
@@ -872,6 +884,7 @@ table {
 
 .olac_mission_box:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .olac_mission img {
@@ -908,6 +921,7 @@ table {
 
 .coverage:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .coverage h3 {
@@ -938,6 +952,7 @@ table {
 .coverage_button button:hover {
     background-color: #00295E;
 	transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .mailing_list {
@@ -955,6 +970,7 @@ table {
 
 .mailing_list:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .mailing_list h1 {
@@ -1130,6 +1146,7 @@ table {
 	.olac_overview img:hover {
 		cursor: pointer;
 		transform: translateY(-3px);
+		box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 		transition: transform 0.3s ease;
 	}
 
