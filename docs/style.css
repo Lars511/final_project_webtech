@@ -435,6 +435,7 @@ table {
 		margin-right: 15px;
 		margin-left: 15px;
 		margin-bottom: 15px;
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
 	}
 
 	.country_filler {
@@ -447,7 +448,7 @@ table {
 
 	.country:hover {
 			background-color: #C2C2C2;
-			text-decoration: underline;
+			text-decoration: none;
 			transform: translateY(-3px);
 	}
 
@@ -498,7 +499,6 @@ table {
 		padding: 10px;
 		margin: 25px;
 		font-size: 24px;
-		
 	}
 
 	.list_of_languages ul a {
@@ -507,8 +507,9 @@ table {
 	}
 
 	.list_of_languages ul a:hover, .list_of_languages li:hover {
-			text-decoration: underline;
+			text-decoration: none;
 			background-color: #C2C2C2;
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
 			transform: translateY(-3px);
 	}
 	.all_languages {
@@ -780,6 +781,11 @@ table {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.left_picture:hover {
+    transform: translateY(-5px);
 }
 
 .left_picture img {
@@ -800,6 +806,11 @@ table {
     background-color: #F2F2F2;
     border-radius: 10px;
     padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news:hover {
+    transform: translateY(-5px);
 }
 	
 .news h3 {
@@ -856,6 +867,11 @@ table {
     background-color: #F2F2F2;
     border-radius: 10px;
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.olac_mission_box:hover {
+    transform: translateY(-5px);
 }
 
 .olac_mission img {
@@ -887,6 +903,11 @@ table {
     padding: 20px;
     text-align: center;
     flex-grow: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coverage:hover {
+    transform: translateY(-5px);
 }
 
 .coverage h3 {
@@ -929,6 +950,11 @@ table {
     margin: 30px auto;
     max-width: 800px;
     width: calc(100% - 30px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mailing_list:hover {
+    transform: translateY(-5px);
 }
 
 .mailing_list h1 {
